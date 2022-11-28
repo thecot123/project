@@ -1,0 +1,37 @@
+.slide__body .container .container_slide{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 30px 0;
+  margin: 0px auto;
+}
+.slide__body .container .container_slide .slides{
+  width: 100%;
+  display: flex;
+}
+.slide__body .container .container_slide .slides .item{
+  min-width: 100%;
+  
+}
+.slide__body .container .container_slide .slides .item img{
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: none;
+}
+.slide__body .container .container_slide .next,.prev{
+  position: absolute;
+  top: 50%;
+  padding: 10px 15px;
+  background: #000;
+  color: #fff;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.slide__body .container .container_slide .next:hover,.prev:hover{
+  background: saddlebrown;
+}
+.slide__body .container .container_slide .next{
+  right: 0;
+}
+/* end slides */
